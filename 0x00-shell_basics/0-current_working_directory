@@ -1,2 +1,2 @@
-#!/bin/bash cwd=$(pwd)
-echo "Current working directory: $cwd"
+#!/bin/bash
+echo "Current working directory: $(realpath .)"
