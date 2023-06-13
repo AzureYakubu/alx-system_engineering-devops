@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Result:$(echo  $(echo "$WATER" | base -d water) + $(echo "$STIR" |base -d stri) | bc | base bestchol)"
+echo "Result:$((10#$WATER + 10#$STIR))" | base bestchol
